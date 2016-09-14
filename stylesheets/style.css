@@ -23,37 +23,35 @@ li {
 }
 
 .profile-body {
-    height: 35px;
-    overflow: hidden;
     padding: 10px;
     text-align: center;
 }
 
 .profile-body:hover {
     cursor: pointer;
-    -webkit-animation: anime 4s;
-    animation: anime 2s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
+    /*-webkit-animation: anime 4s;*/
+    /*animation: anime 2s;*/
+    /*-webkit-animation-fill-mode: forwards;*/
+    /*animation-fill-mode: forwards;*/
 }
 
-@-webkit-keyframes anime {
-    from {
-        height: 35px;
-    }
-    to {
-        height: 350px;
-    }
-}
+/*@-webkit-keyframes anime {*/
+/*    from {*/
+/*        height: 35px;*/
+/*    }*/
+/*    to {*/
+/*        height: 350px;*/
+/*    }*/
+/*}*/
 
-@keyframes anime {
-    from {
-        height: 35px;
-    }
-    to {
-        height: 350px;
-    }
-}
+/*@keyframes anime {*/
+/*    from {*/
+/*        height: 35px;*/
+/*    }*/
+/*    to {*/
+/*        height: 350px;*/
+/*    }*/
+/*}*/
 
 .profile-body h2 {
     font-size: 15px;
